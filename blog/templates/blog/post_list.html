@@ -1,8 +1,15 @@
+{% load staticfiles %}
 <html>
     <head>
-        <title>Le Blog de Mathilde</title>
+      <title>Le Blog de Mathilde</title>
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
+      body {
+    padding-left: 15px;
+}
         <div>
             <h1><a href="">Le Blog de Mathilde</a></h1>
         </div>
